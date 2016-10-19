@@ -17,3 +17,5 @@ install:
 
 script:
   - ps ux
+  - sbt test
+  - ps ux
