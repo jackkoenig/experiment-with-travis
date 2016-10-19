@@ -1,0 +1,19 @@
+language: scala
+scala :
+  - 2.11
+sudo: false
+
+cache:
+  directories:
+    $HOME/.ivy2
+
+git:
+  depth: 10
+
+sbt_args: -Dsbt.log.noformat=true
+
+install:
+  - echo "Hello World!"
+
+script:
+  - ps ux
